@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- REGISTRO DE USUARIO, creado por Ángel -->
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro - Tienda online</title>
+</head>
+
+<body>
+    <h1>Registro de usuario</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <p>
+                <label>Tratamiento</label><br>
+                <label>
+                    <input type="radio" name="title" value="don">
+                    Don
+                </label>
+                <label>
+                    <input type="radio" name="title" value="doña">
+                    Doña
+                </label>
+            </p>
+            <p>
+                <label>Nombre</label><br>
+                <input type="text" name="nombre">
+            </p>
+            <p>
+                <label>Primer apellido</label><br>
+                <input type="text" name="primer_apellido">
+            </p>
+            <p>
+                <label>Segundo apellido</label><br>
+                <input type="text" name="segundo_apellido">
+            </p>
+            <p>
+                <label>Teléfono</label><br>
+                <input type="tel" name="telefono">
+            </p>
+            <p>
+                <label>País</label><br>
+                <select>
+                    <option>España</option>
+                    <option>Portugal</option>
+                    <option>Andorra</option>
+                </select>
+            </p>
+        </fieldset>
+        <p>
+            <label>Correo electrónico (*)</label><br>
+            <input type="email" name="email" required autocomplete="off">
+        </p>
+        <p>
+            <label>Password</label><br>
+            <input type="password" name="password">
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" value="terminos">
+                Estoy de acuerdo con los <a href="#">términos y condiciones</a>
+            </label>
+        </p>
+        <p>
+            <button>Registrarse</button>
+            <button type="reset">Limpiar el formulario</button>
+        </p>
+    </form>
+</body>
+
+</html>
